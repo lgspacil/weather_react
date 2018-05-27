@@ -1,0 +1,15 @@
+.cloud1{
+  position: absolute; 
+  visibility: visible; 
+  top: 27%; 
+  left: 17%; 
+  /* z-index: -1; */
+}
+
+.cloud2{
+  position: absolute;
+  top: 23%;
+  left: 66%;
+  /* z-index: -1; */
+}
+

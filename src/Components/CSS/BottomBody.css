@@ -1,0 +1,50 @@
+.BottomBody{
+    margin-top: 0%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dates{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    background-color: white;
+    font-size: 0.88em;
+}
+
+.borderRight {
+    border-right: 1px solid rgb(155, 151, 151);
+    position: absolute;
+    top: 10%;
+    bottom: 9%;
+}
+
+.light{
+    color: rgb(155, 151, 151);
+}
+
+
+
+
+@media (max-width: 615px){
+    .BottomBody{
+        margin-top: -13%
+    }
+
+    .dates img{
+        height: 70%;
+        width: 70%;
+    }
+    .dates {
+        font-size: 0.78em;
+    }
+}
+
+
+@media (max-width: 425px){
+    .dates {
+        font-size: 0.6em;
+    }
+}
